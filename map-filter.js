@@ -8,12 +8,12 @@
  })
  console.log(result);
 
- // filter the element using condition 
+ // filter the element using condition and return an array 
  const result1 = numbers.filter(x => !(x&1));
 
  console.log(result1);
 
- // find return first element such that when condition is true
+ // find return first value such that when condition is true
 
  const value = numbers.find(x => x > 5);
 
